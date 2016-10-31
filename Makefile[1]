@@ -1,0 +1,4 @@
+project: project.o
+	cc project.c -lncurses -lmenu -lform
+project.o: project.c
+	cc -c project.c
